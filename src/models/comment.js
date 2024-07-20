@@ -6,8 +6,8 @@ module.exports = (sequelize, DataTypes) => {
       Comment.belongsTo(models.User, {
         foreignKey: 'user_id',
       });
-      Comment.belongsTo(models.Article, {
-        foreignKey: 'article_id',
+      Comment.belongsTo(models.Notice, {
+        foreignKey: 'notice_id',
       });
     }
   }
