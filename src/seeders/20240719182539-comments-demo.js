@@ -10,7 +10,7 @@ module.exports = {
         {
           id: 1,
           content: 'Great post! Very informative.',
-          author_id: 1,
+          user_id: 1,
           notice_id: 1,
           createdAt: new Date(),
           updatedAt: new Date(),
@@ -18,7 +18,7 @@ module.exports = {
         {
           id: 2,
           content: 'I agree with the ideas presented.',
-          author_id: 4,
+          user_id: 4,
           notice_id: 2,
           createdAt: new Date(),
           updatedAt: new Date(),
@@ -26,7 +26,7 @@ module.exports = {
         {
           id: 3,
           content: 'Excellent content, thanks for sharing!',
-          author_id: 1,
+          user_id: 1,
           notice_id: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
@@ -34,7 +34,7 @@ module.exports = {
         {
           id: 4,
           content: 'Very useful, I hope to see more posts like this.',
-          author_id: 4,
+          user_id: 4,
           notice_id: 4,
           createdAt: new Date(),
           updatedAt: new Date(),
@@ -42,7 +42,7 @@ module.exports = {
         {
           id: 5,
           content: 'Thanks for the detailed explanation.',
-          author_id: 1,
+          user_id: 1,
           notice_id: 5,
           createdAt: new Date(),
           updatedAt: new Date(),
