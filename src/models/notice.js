@@ -6,6 +6,10 @@ module.exports = (sequelize, DataTypes) => {
       Notice.belongsTo(models.User, {
         foreignKey: 'author_id',
       });
+
+      Notice.belongsTo(models.Comment, {
+        foreignKey: 'notice_id',
+      });
     }
   }
   Notice.init(
