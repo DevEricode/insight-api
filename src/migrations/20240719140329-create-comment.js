@@ -13,6 +13,16 @@ module.exports = {
       content: {
         type: Sequelize.STRING,
       },
+      author_id: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: { model: 'users', key: 'id' },
+      },
+      notice_id: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: { model: 'notices', key: 'id' },
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
